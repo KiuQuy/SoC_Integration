@@ -1,1 +1,2 @@
-
+Why use a watchdog timer?
+A watchdog timer can help you detect and recover from system failures that can occur due to various reasons, such as hardware faults, software bugs, external interference, power fluctuations, or user errors. For example, if your program enters an infinite loop, a deadlock, or a corrupted state, the WDT will expire and trigger an interrupt or a reset, depending on how you set it up. This can allow you to perform some corrective actions, such as saving critical data, logging the error, or restarting the system.
